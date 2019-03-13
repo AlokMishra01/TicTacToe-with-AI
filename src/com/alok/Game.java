@@ -60,7 +60,7 @@ public class Game extends JFrame implements ActionListener {
     public Game() {
         TTT = new TicTacToeAI();
         setResizable(false);
-        setTitle("TicTacToe - DEMO");
+        setTitle("TicTacToe");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setBounds(100, 100, 512, 278);
         contentPane = new JPanel();
